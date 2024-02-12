@@ -1,0 +1,44 @@
+
+.auth-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 95vh;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 20px;
+  }
+  
+  label {
+    margin-bottom: 5px;
+  }
+  
+  input {
+    margin-bottom: 10px;
+    padding: 8px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+    border: none;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  p {
+    cursor: pointer;
+    color: #007bff;
+    margin-top: 10px;
+  }
+  

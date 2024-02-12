@@ -1,0 +1,11 @@
+td{
+    text-align: center;
+    justify-content: center;
+    padding: 5px;
+}
+th{
+    padding: 10px;
+}
+table button{
+    background-color: red;
+}

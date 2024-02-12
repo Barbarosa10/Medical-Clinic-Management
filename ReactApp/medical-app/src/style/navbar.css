@@ -1,0 +1,41 @@
+/* Add your preferred styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: black;
+    color: #fff;
+  }
+  
+  .left-side {
+    display: flex;
+    align-items: center;
+
+  }
+  
+  .left-side a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 15px;
+    cursor: pointer;
+  }
+
+  .left-side a:hover {
+    color: green; /* Change the color on hover */
+  }
+
+  .left-side a.active{
+    color: green;
+   }
+  
+  .right-side button {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+  }
+  
+  .right-side button:hover {
+    color: green; /* Change the color on hover */
+  }
